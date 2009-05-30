@@ -1,2 +1,10 @@
 amfm -Personal Radio Controller-
 
+Usage:
+  $ autoreconf
+  $ ./configure --prefix=/home/ikegam/local
+  $ make
+
+ToDo:
+  * support radioshark1 2
+  * support THANKO USB AM/FM Radio

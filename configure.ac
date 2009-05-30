@@ -14,6 +14,7 @@ AM_INIT_AUTOMAKE($PACKAGE, $VERSION, no-define)
 
 # Checks for programs.
 AC_PROG_CC
+AM_PROG_CC_C_O
 
 # Checks for libraries.
 PKG_CHECK_MODULES(LIBHID, libhid >= 0.2.0)
